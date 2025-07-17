@@ -17,7 +17,7 @@ export const Footer = () => {
           <h1
             className={`font-light text-lg text-white py-6 ${saira.className}`}
           >
-            @2024 / JAN ERIS M. SALUDO
+             @{new Date().getFullYear()} / JAN ERIS M. SALUDO
           </h1>
           <div className="flex gap-2">
             <Link href="https://www.facebook.com/ekuzen.1192/">
